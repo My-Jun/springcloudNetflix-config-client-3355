@@ -1,0 +1,9 @@
+# 根配置文件，系统级别配置
+spring:  cloud:    config:
+      # 远程想要读取的文件      name: config-client
+      # 拿去服务配置环境dev，test
+      profile: test
+      # 拿去哪个分支的代码
+      label: main
+      uri: http://localhost:3344
+      

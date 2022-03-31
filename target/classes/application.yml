@@ -1,0 +1,7 @@
+# 用户级别配置
+#spring配置
+spring:
+  application:
+    name: springcloud-config-client
+  
+
